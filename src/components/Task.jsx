@@ -2,7 +2,7 @@ import React from "react";
 
 const Task = (props) => {
   const style = {
-    color: "gold",
+    color: "red",
   };
 
   const { text, date, id, active, important, finishDate } = props.task;

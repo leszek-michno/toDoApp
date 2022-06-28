@@ -5,8 +5,6 @@ const AddTask = (props) => {
   const [checked, setChecked] = useState(false);
   const [date, setDate] = useState(new Date().toISOString().slice(0, 10));
 
-  
-
   const handleText = (e) => {
     setText(e.target.value);
   };
